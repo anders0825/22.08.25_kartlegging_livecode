@@ -1,0 +1,79 @@
+/* CSS HEX 
+--floral-white: #f9f3e9ff;
+--auburn: #a2303dff;
+--raisin-black: #302a36ff;
+--light-sea-green: #3daba2ff;
+--mountbatten-pink: #837888ff;
+*/
+/*
+header h1 nav ul li a
+main
+section .type
+article .pokemon img #pokemon1-3
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f3e9ff;
+  font-size: 20px;
+  color: #302a36ff;
+  text-align: center;
+  height: 100svh;
+  width: 100svw;
+}
+
+header {
+  display: flex;
+  height: 20vh;
+  background-color: #3daba2ff;
+  justify-content: center;
+  align-items: center;
+  width: 100svw;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 30svw;
+  flex-direction: column;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: #302a36ff;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #f9f3e9ff;
+}
+
+main {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+img {
+  border: solid 2px #302a36ff;
+  border-radius: 30px;
+  width: 250px;
+  padding: 10px;
+  margin: 20px;
+}
+article {
+  display: flex;
+  flex-direction: row;
+}
+
+.pokemon-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
