@@ -17,6 +17,10 @@ article .pokemon img #pokemon1-3
   box-sizing: border-box;
 }
 
+nav {
+  display: flex;
+}
+
 body {
   background-color: #f9f3e9ff;
   font-size: 20px;
@@ -56,19 +60,28 @@ a:hover {
 main {
   display: flex;
   align-items: start;
+  justify-content: center;
   flex-direction: column;
 }
 
 img {
   border: solid 2px #302a36ff;
   border-radius: 30px;
-  width: 250px;
+  width: 30svw;
+  max-width: 250px;
+  height: 30svw;
+  max-height: 250px;
   padding: 10px;
   margin: 20px;
 }
 article {
   display: flex;
   flex-direction: row;
+}
+
+.type {
+  width: 75svw;
+  margin: auto;
 }
 
 .pokemon-details {
